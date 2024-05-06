@@ -1,0 +1,127 @@
+/*Index*/
+.slider-container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center;
+}
+/*Cuentas*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 392px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/*Body*/
+body{
+  font-family: Comic Sans;
+  font-size: 16pt;
+  Background – color : #0A8087;
+}
+/*MENU*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2;
+  overflow: hidden;
+  border: 1px solid #B4A7B8;
+  background-color: #EECCF9;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3D1E54;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #8672BB;
+}
+
+li a.active {
+  color: white;
+  background-color: #6B5A9A;
+}
+/*Botones*/
+td a {
+  display: block;
+  color: #3D1E54;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+td a:hover:not(.active) {
+  background-color: #F7E1E1;
+}
+.eliminar{
+  background-color: #FE4A4A;
+}
+.actualizar{
+  background-color: #BBCC14;
+}
+.opcuenta{
+  background-color: #A8FCDC;
+}
+/*Formulario*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #7276BB;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5056BD;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
