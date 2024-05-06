@@ -1,0 +1,10 @@
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Katherine\7mo semestre\INF-324\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
