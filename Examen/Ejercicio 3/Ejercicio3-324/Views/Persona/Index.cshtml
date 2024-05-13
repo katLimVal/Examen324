@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Ejercicio3_324.Models.persona>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<p>
+    @Html.ActionLink("Añadir cliente", "Create", "",new { @class="btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ci)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apellidop)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apellidom)
+        </th>
+        <th>Operaciones</th>
+        <th>Operaciones cuenta</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ci)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.apellidop)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.apellidom)
+        </td>
+        <td>
+            @Html.ActionLink("Modificar", "Edit", new { id=item.ci }, new { @class = "btn btn-warning" }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.ci }, new { @class = "btn btn-danger" })
+        </td>
+        <td>
+            @Html.ActionLink("Mostrar Cuenta", "ListarElementosPorId", "Cuenta", new { id = item.ci }, new { @class = "btn btn-info" })
+            @Html.ActionLink("Agregar Cuenta", "Index", "Persona", new { persona_id = item.ci }, new { @class = "btn btn-secondary" })
+
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Ejercicio3_324.Models.cuenta>
+
+@{
+    ViewBag.Title = "ListarElementosPorId";
+}
+
+<h2>Cuentas Cliente</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.persona_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tipo_cuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.saldo)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.persona_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tipo_cuenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.saldo)
+        </td>
+    </tr>
+}
+
+</table>

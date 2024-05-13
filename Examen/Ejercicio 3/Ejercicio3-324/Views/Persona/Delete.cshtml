@@ -1,0 +1,46 @@
+﻿@model Ejercicio3_324.Models.persona
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h3>Esta seguro de eliminar al cliente?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.apellidop)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.apellidom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.apellidom)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            @Html.ActionLink("Regresar a la lista", "Index")
+        </div>
+    }
+</div>

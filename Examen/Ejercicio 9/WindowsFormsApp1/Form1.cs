@@ -54,12 +54,14 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Se elimino registro correctamente");
             }
             else {
-                MessageBox.Show("Se elimino registro correctamente");
+                MessageBox.Show("No es posible eliminar");
             }
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
             textBox4.Text = "";
+            textBox1.ReadOnly = false;
+            button1.Enabled = true;
             mostrarDatos();
         }
 
@@ -69,6 +71,8 @@ namespace WindowsFormsApp1
             textBox2.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             textBox3.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
             textBox4.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            textBox1.ReadOnly = true;
+            button1.Enabled = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -80,15 +84,17 @@ namespace WindowsFormsApp1
             int res = ws.ActualizarDatosPersona(ci,nombre,ap,am);
             if (res > 0)
             {
-                MessageBox.Show("Se elimino registro correctamente");
+                MessageBox.Show("Se actualizo registro correctamente");
             }
             else {
-                MessageBox.Show("Se elimino registro correctamente");
+                MessageBox.Show("No se actualizo el registro");
             }
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
             textBox4.Text = "";
+            textBox1.ReadOnly = false;
+            button1.Enabled = true;
             mostrarDatos();
         }
     }

@@ -71,7 +71,7 @@ namespace EjercicioExamen
         [WebMethod]
         public int eliminarPersona(String ci)
         {
-            SqlConnection con = new SqlConnection();
+            try { SqlConnection con = new SqlConnection();
             SqlCommand cmd = new SqlCommand();
             String sql;
             con.ConnectionString = "server=(local);user=user324;pwd=123456;database=BDKatherine";
@@ -83,6 +83,11 @@ namespace EjercicioExamen
             int resp = cmd.ExecuteNonQuery();
             con.Close();
             return resp;
+            }
+            catch (Exception e){
+                return -1;
+            }
+            
         }
         [WebMethod]
         public DataSet obtenerPersona(int ci)
