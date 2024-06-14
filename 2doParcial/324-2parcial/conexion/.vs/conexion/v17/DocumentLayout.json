@@ -3,14 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|c:\\users\\katerine\\desktop\\324-2parcial\\ejercicio2parcial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|c:\\users\\katerine\\desktop\\324-2parcial\\conexion\\conexion\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|solutionrelative:conexion\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|solutionrelative:conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|c:\\users\\katerine\\desktop\\324-2parcial\\ejercicio2parcial.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|solutionrelative:conexion\\form11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\form11.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|solutionrelative:conexion\\form11.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\form11.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|solutionrelative:conexion\\form11.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83D0787C-6226-41DE-B8C1-FB104B623EC1}|conexion\\conexion.csproj|C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -28,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,7 +54,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form11.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.cs",
+              "RelativeDocumentMoniker": "conexion\\Form11.cs",
+              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.cs [Dise\u00F1o]",
+              "RelativeToolTip": "conexion\\Form11.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:30:47.559Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Form11.resx",
+              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.resx",
+              "RelativeDocumentMoniker": "conexion\\Form11.resx",
+              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.resx",
+              "RelativeToolTip": "conexion\\Form11.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-12T12:04:36.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form11.cs",
+              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.cs",
+              "RelativeDocumentMoniker": "conexion\\Form11.cs",
+              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.cs",
+              "RelativeToolTip": "conexion\\Form11.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:04:47.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form11.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.Designer.cs",
+              "RelativeDocumentMoniker": "conexion\\Form11.Designer.cs",
+              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form11.Designer.cs",
+              "RelativeToolTip": "conexion\\Form11.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T20:30:25.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Form1.cs",
               "RelativeDocumentMoniker": "conexion\\Form1.cs",
@@ -55,43 +114,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ejercicio2parcial.cs",
-              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\Ejercicio2parcial.cs",
-              "RelativeDocumentMoniker": "..\\Ejercicio2parcial.cs",
-              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\Ejercicio2parcial.cs",
-              "RelativeToolTip": "..\\Ejercicio2parcial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T12:04:47.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Conexion.cs",
               "RelativeDocumentMoniker": "conexion\\Conexion.cs",
               "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\Conexion.cs",
               "RelativeToolTip": "conexion\\Conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T12:04:04.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ejercicio2parcial.resx",
-              "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\Ejercicio2parcial.resx",
-              "RelativeDocumentMoniker": "..\\Ejercicio2parcial.resx",
-              "ToolTip": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\Ejercicio2parcial.resx",
-              "RelativeToolTip": "..\\Ejercicio2parcial.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-12T12:04:36.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\KATERINE\\Desktop\\324-2parcial\\conexion\\conexion\\App.config",
               "RelativeDocumentMoniker": "conexion\\App.config",
